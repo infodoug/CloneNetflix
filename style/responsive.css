@@ -1,0 +1,24 @@
+@media screen and (max-width:926px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        width: 200px;
+        margin-bottom: 3px;
+    }
+
+    .main-movie .description {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .main-movie {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(20, 20, 20)100%), url('https://www.themoviedb.org/t/p/w500_and_h282_face/qJxzjUjCpTPvDHldNnlbRC4OqEh.jpg');
+        background-size: cover;
+    }
+}

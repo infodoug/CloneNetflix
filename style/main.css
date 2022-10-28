@@ -1,0 +1,128 @@
+/*base*/
+
+:root {
+    --red:#e50914;
+    --black:#141414;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    font-family: sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-right: 45px;
+    margin-left: 5px;
+}
+
+header .input-search {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    height: 37px;
+    color: white;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    height: 37px;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/*main movie*/
+
+.main-movie {
+    font-size: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(20, 20, 20)100%), url('https://www.themoviedb.org/t/p/original/e2cfa6y5Ce4e3ZiAaDbkUq1b6B6.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .description {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.botao:nth-child(1) {
+    padding: 15px 30px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.botao:nth-child(1):hover {
+    background-color: white;
+    transition: .4s ease all;
+}
+
+.botao:nth-child(2) {
+    background-color: rgba(58, 56, 56, 0.5);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.botao:nth-child(2):hover {
+    background-color: white;
+    color: black;
+    transition: .4s ease all;
+}
+
+.botao i{
+    margin-right: 3px;
+}
+
+.container {
+    margin-left: 45px;
+}
+
+.main-movie .container {
+    width: 40%;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item:hover {
+    cursor: pointer;
+}
